@@ -1,0 +1,39 @@
+{
+  "name": "fidelis-client",
+  "version": "1.0.0",
+  "description": "CLI Tool for connecting to Fidelis KVS",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "nodemon --exec npx ts-node ./src/app.ts",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luismoralesarg/fidelis-client.git"
+  },
+  "keywords": [
+    "kvs",
+    "client",
+    "cli"
+  ],
+  "author": "Luis Morales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luismoralesarg/fidelis-client/issues"
+  },
+  "homepage": "https://github.com/luismoralesarg/fidelis-client#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "net": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^18.15.11",
+    "nodemon": "^2.0.22",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}
